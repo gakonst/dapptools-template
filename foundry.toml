@@ -1,2 +1,8 @@
 [profile.ci.fuzz]
 runs = 10_000
+
+[profile.default]
+libs = ["dependencies"]
+
+[dependencies]
+forge-std = "1.9.5"
